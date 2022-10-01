@@ -45,8 +45,11 @@ class FirstScr(Screen):
         vl.add_widget(btn)
         vl.add_widget(btn_back)
         self.add_widget(vl)
-        sound = SoundLoader.load('gup1.wav')
-        on_play: 'gup1.wav'
+        #sound = SoundLoader.load('gup1.wav')
+        #if sound:
+        #    print("Sound found at %s" % sound.source)
+        #    print("Sound is %.3f seconds" % sound.length)
+        #    sound.play()
 
 
 class SecondScr(Screen):
